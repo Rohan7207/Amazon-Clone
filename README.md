@@ -16,7 +16,8 @@ The project focuses on layout design, responsiveness, and UI structure.
 - CSS3 (Flexbox, Grid, Media Queries)
 
 ## Screenshots
-(Add desktop and mobile screenshots here)
+## 💻 Desktop View
+![Desktop](Amazon_Preview.jpeg)
 
 ## Author
 Rohan Figredo

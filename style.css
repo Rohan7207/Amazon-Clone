@@ -92,7 +92,7 @@
 
 /* box 4 */
 .nav-flag{
-    background-image: url("image1.png");
+    background-image: url("India_flag.png");
     /* margin-right: 10px; */
     background-size: cover;
     background-repeat: no-repeat;
@@ -172,7 +172,7 @@ span{
 
 /* hero section */
 .hero-section{
-    background-image: url("image2.jpg");
+    background-image: url("Hero_Section.jpg");
     background-size: cover;
     height: 350px;
     display: flex;
@@ -338,13 +338,127 @@ ul a{
 
 
 @media (max-width: 992px) {
-  .shopping-section {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .shopping-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .deliver-address{
+        font-size: 0.75rem;
+        margin-right: 15px;
+    }
+
+    .add-sec{
+        font-size: 0.85rem;
+    }
+
+    .search-input{
+        font-size: 0.95rem;
+    }
+
+    .search-icon{
+        font-size: 1rem;
+    }
+
+    .nav-flag{
+        display: none;
+    }
+
+    .nav-account span{
+       display: none;
+    }
+
+    .nav-return span{
+        display: none;
+    }
+
+    .nav-second{
+        display: none;
+    }
+
+    .nav-cart{
+        font-size: 0.85rem;
+    }
+
+    .nav-cart i{
+        font-size: 20px;
+    }
+
+    .panel-options{
+        font-size: 0.75rem;
+    }
+
+    .panel-deals{
+        display: none;
+    }
+
+    .foot-panel2 ul p{
+        font-size: 0.90rem;
+    }
+
+    .foot-panel2 ul a{
+        font-size: 0.70rem;
+    }
 }
 
 @media (max-width: 576px) {
-  .shopping-section {
-    grid-template-columns: 1fr;
-  }
+    .shopping-section {
+        grid-template-columns: 1fr;
+    }
+
+    .deliver-address{
+        font-size: 0.65rem;
+        margin-right: 15px;
+    }
+
+    .add-sec{
+        font-size: 0.85rem;
+    }
+
+    .search-input{
+        font-size: 0.85rem;
+    }
+
+    .search-icon{
+        font-size: 1rem;
+    }
+
+    .nav-flag{
+        display: none;
+    }
+
+    .nav-account span{
+       display: none;
+    }
+
+    .nav-return span{
+        display: none;
+    }
+
+    .nav-second{
+        display: none;
+    }
+
+    .nav-cart{
+        font-size: 0.85rem;
+    }
+
+    .nav-cart i{
+        font-size: 20px;
+    }
+
+    .panel-options{
+        font-size: 0.75rem;
+    }
+
+    .panel-deals{
+        display: none;
+    }
+
+    .foot-panel2 ul p{
+        font-size: 0.85rem;
+    }
+
+    .foot-panel2 ul a{
+        font-size: 0.65rem;
+    }
 }
